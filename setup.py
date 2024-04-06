@@ -7,4 +7,7 @@ setuptools.setup(
     packages=setuptools.find_packages(),
     long_description=open('README').read(),
     long_description_content_type='text/markdown',
+    project_urls={
+        'GitHub': 'https://github.com/desotana/discord_check/',
+    },
 )
